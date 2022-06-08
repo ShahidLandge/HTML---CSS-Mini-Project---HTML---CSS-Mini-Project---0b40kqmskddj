@@ -1,1 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+#bg {
+    background-color: #a89dd4;
+
+}
+
+.logo {
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    font-style: 1.3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    color: black;
+    background-color: white;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.details {
+
+
+    background-color: lightgrey;
+    border: 1px solid rgb(146, 116, 60);
+    border-radius: 10px;
+    text-align: center;
+    margin: 8%;
+    padding: 60px;
+
+}
+
+.details p {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.details a {
+    text-decoration: none;
+    color: white;
+}
+
+.images img {
+
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+.images {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+button {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+
+
+#servicesection {
+    text-align: center;
+}
+
+#projectsection {
+    margin-top: 2%;
+    text-align: center;
+}
+
+#name {
+    color: olive;
+}
+
+
+/* About Section*/
+
+#aboutsection {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#aboutme {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(29, 165, 41, 0.5);
+    color: black;
+    align-items: center;
+    padding: 30px;
+
+}
+
+
+
+#pic h1 {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    padding: 6px;
+    align-items: flex-start;
+}
+
+#pic img {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#intro h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+
+/* Projects Section*/
+
+#projectsection {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#Project {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(29, 165, 41, 0.5);
+    color: white;
+    /* height: 350px; */
+    margin: 30px 0;
+}
+
+#Project h1 {
+    padding: 30px;
+
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    align-items: center;
+    height: 300px;
+}
+
+.gallery img {
+    width: 250px;
+    height: 150px;
+}
+
+.gimg {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+    align-items: center;
+}
+
+figure {
+    display: inline-block;
+    border: 1px gray;
+    margin: 20px;
+}
+
+figure figcaption {
+    color: black;
+    border: 1px blue;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* Services Section */
+
+#servicesection {
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(29, 165, 41, 0.5);
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.services h1 {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    padding: 30px;
+    align-items: flex-start;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 50px auto;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background-size: 100% 200%;
+    transition: at 1.85;
+}
+.box:hover{
+    background-color: aliceblue;
+}
+
+
+.box img {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    padding: 10px;
+}
+
+.box p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+
+
+/* CONTACT SECTION   */
+
+#contactsection {
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(29, 165, 41, 0.5);
+    color: white;
+    padding: 20px;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+.input {
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+
+#msg {
+    width: 30%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}
+
+#btn {
+
+
+
+    border: none;
+    outline: none;
+}
+
+.form button {
+
+
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.form button:hover {
+
+    background-color: orange;
+
+}
+
+.form button a {
+
+    color: black;
+    text-decoration: none;
+}
+
+/* FOOTER SECTION  */
+
+#bgf {
+    background-color: #a89dd4;
+    margin-top: 40px;
+
+
+}
+
+#socialsection {
+    padding: 30px;
+    text-align: center;
+}
+
+
+.fa {
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 30px;
+
+
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+
+
+.fa-twitter {
+    background:#5b5bbb;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+
+
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.footer {
+
+
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+
+@media only screen and (max-width: 1280px) {
+    .details {
+        width: 85%;
+    }
+
+    .images img {
+        width: 100%;
+
+    }
+
+    #pic img {
+        width: 100%;
+    }
+
+    .gallery {
+        width: 100%;
+        height: 100%;
+    }
+
+    .gallery img {
+        width: 250px;
+        height: 150px;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    #msg {
+        width: 100%;
+    }
+
+    #send {
+        width: 21%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+}
