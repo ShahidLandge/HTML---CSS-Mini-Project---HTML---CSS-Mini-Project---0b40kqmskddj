@@ -19,6 +19,6 @@
 - Well categorized sections for user friendliness.
 - All the nav links are properly linked with their respected sections just to create ease of navigation for users.
 
-->	BIBLIOGRAPHY:
+-> BIBLIOGRAPHY:
 - http://www.w3schools.com
 - https://www.google.com
