@@ -393,7 +393,7 @@ figure figcaption {
 
 
 .fa-twitter {
-    background:#5b5bbb;
+    background: blue;
     color: white;
 }
 
@@ -446,7 +446,7 @@ footer {
     }
 
     .images img {
-        width: 100%;
+        width: 80%;
 
     }
 
@@ -479,4 +479,15 @@ footer {
     .footer {
         width: 100%;
     }
+}
+
+@media only screen and (max-width: 900px){
+.hero {
+    display: grid;
+    grid-template-columns: auto;
+}
+.images img {
+    width: 70%;
+
+}
 }
